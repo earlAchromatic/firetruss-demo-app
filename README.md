@@ -7,7 +7,6 @@
 <p align="center">
  <a href="https://vite-vue2-starter.netlify.app"> ✨ Live Demo</a>
 </p>
-
 ## Features
 
 * ⚡️ [Vite](https://github.com/vitejs/vite), [Vue 2](https://github.com/vuejs/vue) - lightning fast
