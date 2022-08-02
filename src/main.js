@@ -1,4 +1,6 @@
 import Vue from 'vue'
+import Truss from 'firetruss'
+import config from '../firebase.config'
 import App from '@/App.vue'
 
 import 'windi.css'
@@ -13,3 +15,7 @@ new Vue({
   router,
   render: h => h(App),
 })
+
+const truss = new Truss(config.firebaseUrl)
+truss.throttleRemoteDataUpdates(50)
+Vue.use(Truss.ComponentPlugin, { truss })
