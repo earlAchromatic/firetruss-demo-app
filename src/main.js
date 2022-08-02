@@ -13,8 +13,11 @@ Vue.config.devtools = true
 new Vue({
   el: '#app',
   router,
-  render: h => h(App),
+  render: j => j(App),
 })
+
+Truss.enableLogging(true)
+Truss.connectWorker(window.trussWorker, config.firebaseConfig)
 
 const truss = new Truss(config.firebaseUrl)
 truss.throttleRemoteDataUpdates(50)

@@ -3,7 +3,7 @@ export default {
   firebaseUrl: 'https://firetruss-demo-default-rtdb.firebaseio.com/',
   firebaseConfig: {
     databaseURL: 'https://firetruss-demo-default-rtdb.firebaseio.com',
-    apiKey: '',
+    apiKey: 'dsfsdfds2345',
     projectId: 'firetruss-demo-default-rtdb',
   },
 }
